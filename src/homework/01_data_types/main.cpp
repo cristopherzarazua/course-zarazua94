@@ -1,6 +1,7 @@
-﻿#include "data_types.h"
-#include<iostream> //write include statements
-
+﻿
+ //write include statements
+#include<iostream>
+#include "data_types.h"
 //write namespace using statement for cout
 using std::cout;
 using std::cin;
@@ -15,6 +16,10 @@ int main()
 
 	int result(multiply_numbers(num));
 	cout<< multiply_numbers(num);
-	return 0;
+
 	int num1 = 4;
+	result = multiply_numbers(num1);
+	cout<<result;
+
+	return 0;
 }
