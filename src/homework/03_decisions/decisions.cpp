@@ -29,7 +29,7 @@ if (grade <=100 && grade >= 90)
     }
     else
     {
-        result = "Enter a valid grade: ";
+        result = "Enter a valid grade.";
     }
     return result;
 }
@@ -56,7 +56,7 @@ std::string get_letter_grade_using_switch(int grade)
         result = "F";
         break;
     default:
-        result = "Enter a valid grade: ";
+        result = "Enter a valid grade.";
         break;
     }
 

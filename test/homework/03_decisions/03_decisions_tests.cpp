@@ -23,7 +23,7 @@ TEST_CASE("Verify get_letter_grade_using_switch")
 	REQUIRE(get_letter_grade_using_switch(75) == "C");
 	REQUIRE(get_letter_grade_using_switch(65) == "D");
 	REQUIRE(get_letter_grade_using_switch(50) == "F");
-	REQUIRE(get_letter_grade_using_switch(-20) == "Enter a valid grade: ");
-	REQUIRE(get_letter_grade_using_switch(120) == "Enter a valid grade: ");
+	REQUIRE(get_letter_grade_using_switch(-20) == "Enter a valid grade.");
+	REQUIRE(get_letter_grade_using_switch(120) == "Enter a valid grade.");
 }
 
