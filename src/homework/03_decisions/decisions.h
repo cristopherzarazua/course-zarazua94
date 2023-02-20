@@ -1,6 +1,6 @@
 //write include required statements
 #include<iostream>
-using std::dtring;
+using std::string;
 
 
 //Write a function(s) prototype  here
