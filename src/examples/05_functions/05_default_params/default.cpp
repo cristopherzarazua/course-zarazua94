@@ -4,6 +4,12 @@ int get_gross_pay(int hours, int pay_rate)//get_gross_pay(40)
 {
     return hours * pay_rate;
 }
+
+int get_gross_pay(int hours =30, double pay_rate=20)
+{
+    return hours * pay_rate;
+}
+
 int get_gross_pay(int hours, int pay_rate, double sales)//get_gross_pay(40)
 {
     auto gross_pay = 0;
