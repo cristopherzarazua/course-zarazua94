@@ -56,19 +56,19 @@ void main_menu()
         switch(user_selection)
         {
             case 1:
-			       cout<<"\nPlease enter a number: ";
+			       cout<<"\nEnter a number: ";
 			       cin>>num;
 			       cout<<"\nThe factorial of "<<num<<" is "<<factorial(num);
 			       break;
 		    case 2:
-			       cout<<"\nPlease enter first number: ";
+			       cout<<"\nEnter first number: ";
 			       cin>>num1;
-                   cout<<"\nPlease enter second number: ";
+                   cout<<"\nEnter second number: ";
                    cin>>num2;
 			       cout<<"The GCD of "<<num1<<" and "<<num2<<" is "<<gcd(num1, num2);
 			       break;
 		    case 3:
-			       cout<<"Are you sure you want to quit? Type 'y' to exit: ";
+			       cout<<"Enter 'y' to exit: ";
                    cin>>exit;
             if(exit == 'y' || exit == 'Y')
             {
